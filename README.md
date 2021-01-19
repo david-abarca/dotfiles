@@ -6,7 +6,7 @@ For eg. zsh, htop, tmux, vimrc can all be configured automatically every time yo
 1. Clone the repo to your home directory.
 ```
 cd ~
-git clone git@github.com:david-abarca/dotfiles.git
+git clone https://github.com/david-abarca/dotfiles.git
 ```
 2. Once cloned, use stow to create sym links to the folders. This assumes you have the final configuration in the dotfiles already.
 ```
