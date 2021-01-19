@@ -51,9 +51,6 @@ alias mtr="sudo mtr -b"
 # Alias: ncdu
 alias dir='ncdu --color dark -rr'
 
-# Alias: prettyping
-alias ping='prettyping'
-
 # Alias: Python (Linux Only)
 if [[ $OSTYPE == "linux*" ]]
 then
