@@ -29,8 +29,8 @@ plugins=(
   terraform
   tig
   vagrant
-  zsh-autosuggestions
   zsh-completions
+  zsh-autosuggestions
   zsh-syntax-highlighting
 )
 
@@ -53,59 +53,59 @@ ZSH_THEME="spaceship"
 source "$ZSH/custom/themes/spaceship.zsh-theme"
 
 # other
-SPACESHIP_PROMPT_ADD_NEWLINE=true
-SPACESHIP_PROMPT_SEPARATE_LINE=false
+# SPACESHIP_PROMPT_ADD_NEWLINE=true
+# SPACESHIP_PROMPT_SEPARATE_LINE=false
 
 # ORDER
-SPACESHIP_PROMPT_ORDER=(
-  time        # Time stamps section
-  vi_mode     # Prompted before
-  user        # Username section
-  host        # Hostname section
-  char        # Prompt character
-  exit_code   # Exit code section
-  dir         # Current directory section
-  git
-  node
-  docker
-  aws
-  pyenv
-  kubectl
-  terraform
-)
+# SPACESHIP_PROMPT_ORDER=(
+#   time        # Time stamps section
+#   vi_mode     # Prompted before
+#   user        # Username section
+#   host        # Hostname section
+#   char        # Prompt character
+#   exit_code   # Exit code section
+#   dir         # Current directory section
+#   git
+#   node
+#   docker
+#   aws
+#   pyenv
+#   kubectl
+#   terraform
+# )
 
 # Info about Spaceship prompt
 # https://github.com/denysdovhan/spaceship-prompt/blob/master/docs/Options.md
 
-# time
-SPACESHIP_TIME_SHOW=false
-SPACESHIP_TIME_COLOR=yellow
+# # time
+# SPACESHIP_TIME_SHOW=false
+# SPACESHIP_TIME_COLOR=yellow
 
-# vi_mode
-SPACESHIP_VI_MODE_SHOW=true
+# # vi_mode
+# SPACESHIP_VI_MODE_SHOW=true
 
-# user
-SPACESHIP_USER_SHOW=false
-SPACESHIP_USER_COLOR=yellow
-SPACESHIP_USER_COLOR_ROOT=red
+# # user
+# SPACESHIP_USER_SHOW=false
+# SPACESHIP_USER_COLOR=yellow
+# SPACESHIP_USER_COLOR_ROOT=red
 
-# exit_code
-SPACESHIP_EXIT_CODE_SHOW=true
-SPACESHIP_EXIT_CODE_PREFIX=''
-SPACESHIP_EXIT_CODE_SUFFIX=' '
-SPACESHIP_EXIT_CODE_SYMBOL=✘
-SPACESHIP_EXIT_CODE_COLOR=red
+# # exit_code
+# SPACESHIP_EXIT_CODE_SHOW=true
+# SPACESHIP_EXIT_CODE_PREFIX=''
+# SPACESHIP_EXIT_CODE_SUFFIX=' '
+# SPACESHIP_EXIT_CODE_SYMBOL=✘
+# SPACESHIP_EXIT_CODE_COLOR=red
 
-# host
-SPACESHIP_HOST_SHOW=false
-SPACESHIP_HOST_PREFIX=''
-SPACESHIP_HOST_SUFFIX=' '
-SPACESHIP_HOST_COLOR=blue
-SPACESHIP_HOST_COLOR_SSH=green
+# # host
+# SPACESHIP_HOST_SHOW=false
+# SPACESHIP_HOST_PREFIX=''
+# SPACESHIP_HOST_SUFFIX=' '
+# SPACESHIP_HOST_COLOR=blue
+# SPACESHIP_HOST_COLOR_SSH=green
 
-# dir
-SPACESHIP_DIR_PREFIX=''
-SPACESHIP_DIR_TRUNC='1' # show only last directoryexport PYENV_ROOT="$HOME/.pyenv"
+# # dir
+# SPACESHIP_DIR_PREFIX=''
+# SPACESHIP_DIR_TRUNC='1' # show only last directoryexport PYENV_ROOT="$HOME/.pyenv"
 
 # include .bashrc if it exists
 if [ -f $HOME/.zshrc_private ]; then
