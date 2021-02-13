@@ -23,8 +23,6 @@ plugins=(
   docker-compose
   git
   kubectl
-  kubetail
-  poetry
   systemd
   terraform
   tig
